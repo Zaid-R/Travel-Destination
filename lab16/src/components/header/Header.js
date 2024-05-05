@@ -1,15 +1,11 @@
-import './Header.css'
-
-function Header(){
+import './Header.css';
+import Navbar from '../Navbar/Navbar.js';
+function Header() {
     return (
         <>
-        <header>
-        <nav>
-            <h1>
-                Travel Destination
-            </h1>
-        </nav>
-    </header>
+            <header>
+                   <Navbar/>
+            </header>
         </>
     )
 }
