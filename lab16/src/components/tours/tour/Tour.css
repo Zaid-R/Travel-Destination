@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.card-border-wrap {
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 2px;
+    margin: 0 20px 30px;
+    box-shadow: -2px 2px 8px 0px;    ;
+    position: relative;
+    background: linear-gradient(to right, #153448, #3C5B6F);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.card {
+    padding: 0.5rem;
+    text-align: center;
+    background: linear-gradient(45deg, #948979b8, #948979);
+    height: fit-content;
+    width: 320px;
+    border-radius: 10%;
+    box-shadow: 0px 1px 25px 0px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.card img {
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    margin: 10px ;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 0;
+}
